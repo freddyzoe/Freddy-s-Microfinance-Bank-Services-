@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <title>Freddy's MFB Services</title>
+   <style>
+      .wel-head {
+         color: #158cff;
+         text-align: center;
+         font-family: sans-serif;
+      }
+
+      button {
+         background: #4077ff;
+         border: 0px;
+         border-radius: 15px;
+         padding: 20px 20px 20px 20px;
+         width: 300px;
+         margin: 20px;
+         box-shadow: 5px 5px 20px #6aa2ff;
+         font-size: 1em;
+         font-weight: 700;
+         color: #eaeaff;
+      }
+      
+      button:hover {
+         background: #55c1ff;
+      }
+      
+      #sign-up {
+         margin-top: 100px;
+      }
+      
+      #log-in {
+         margin-top: 5px;
+      }
+   </style> 
+</head>
+
+<body>
+   <br><br><br>
+   <h2 class="wel-head">Welcome to <br>Freddy's MicroFinance Banking Services</h2>
+   <div>
+      <br><br><br>
+         <button id="sign-up" onclick="document.location='MFBS Sign Up Page .html'">Sign Up</button>
+         <button id="log-in" onclick="document.location='MFBS Log In Page .html'">Log In</button>
+   </div>
+</body>
+
+<script>
+   
+</script>
+</html>
